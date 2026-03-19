@@ -11,6 +11,12 @@ public class Program {
 
     public static void main(String[] args) throws ParseException {
 
+        /* fazer o tratamento de exceções no programa principal é a
+        pior forma de tratamento de exceções.
+        Sendo assim estarei fazendo os ajustes.
+         */
+
+
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Scanner sc = new Scanner(System.in);
 
